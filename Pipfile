@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 scrapy = "*"
 pandas = "*"
+nltk = "*"
 
 [dev-packages]
 ipykernel = "*"
