@@ -27,6 +27,7 @@ class DEWiktionarySpider(scrapy.Spider):
         for link in links:
             yield response.follow(url=link, callback=self.parse_link)
 
+# test
 
         next_page = response.xpath(f"//div[@id='mw-pages']/a[text()='nächste Seite']/@href").get()
         if next_page:
