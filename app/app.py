@@ -1,5 +1,5 @@
 import streamlit as st
-from app.utils import get_languages, perform_action
+from utils import get_languages, perform_action
 
 # Main Streamlit app
 def main():

@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import streamlit as st
 from io import StringIO
 from bs4 import BeautifulSoup
 from typing import List, Dict, Callable
