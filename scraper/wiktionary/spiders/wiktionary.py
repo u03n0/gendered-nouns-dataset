@@ -5,12 +5,7 @@ import scrapy
 class WiktionarySpider(scrapy.Spider):
     name = 'wiktionary'
 
-    allowed_domains = ['fr.wiktionary.org',
-                       'de.wiktionary.org',
-                       'pl.wiktionary.org',
-                       'es.wiktionary.org',
-                       'en.wiktionary.org'
-                       ]
+    allowed_domains = ['wiktionary.org']
 
     start_urls = [
         'https://fr.wiktionary.org/wiki/Cat%C3%A9gorie:Mots_parfois_f%C3%A9minins_ou_masculins_en_fran%C3%A7ais', # FR in FR
